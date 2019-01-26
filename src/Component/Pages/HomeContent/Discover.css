@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: black;
+}
+.content{
+   
+   
+}
+
+.content h3{
+    color: white;
+    font-weight: bold;
+    padding-right: 1280px;
+    padding-left: 40px;
+}
+
+
+.discover{
+    display:flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+   margin: 0px;
+   padding: 0px;
+
+}
+.ontv{
+    display:flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+   margin: 0px;
+   padding: 0px;
+
+}
+

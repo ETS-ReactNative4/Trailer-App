@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: black;
+}
+.title{
+    display: flex;
+}
+
+.content h3{
+    color: white;
+    font-weight: bold;
+    padding-left: 40px;
+}
+
+.popular{
+    display:flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+   margin: 0px;
+   padding: 0px;
+
+}
+.ontv{
+    display:flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+   margin: 0px;
+   padding: 0px;
+
+}
+
+  

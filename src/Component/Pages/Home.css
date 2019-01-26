@@ -1,0 +1,68 @@
+body{
+    
+    margin: 0;
+    padding: 0;
+}
+@import '/react/node_modules/react-modal-video/css/modal-video.min.css';
+
+
+
+
+.header-one{
+    background:-webkit-linear-gradient(bottom, #221f1f 0%, rgba(34, 31, 31, 0) 100%),url('https://images.alphacoders.com/633/633643.jpg') no-repeat center center fixed;
+    background-size: cover;
+    position: relative;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+    width: 100%;
+    height: 100vh; 
+    
+}
+  .header-one .narcos img{
+    width: 500px;
+    padding-top: 100px;
+    margin-left: 50px;
+}
+@media only screen and (max-width: 750px){
+   .header-one .narcos img{
+    margin-top: 100px;
+     width: 200px;
+     margin-left: 30px;
+   }
+   .header-one .about{
+       margin-left: 0px;
+       letter-spacing: 0px;     
+   }
+ }
+.header-one .about{
+    color: white;
+    margin-left: 50px;
+    letter-spacing: 1px;
+}
+.header-one .header{
+    color: rgb(28, 14, 216);
+    text-align: center;
+    font-weight: 700px;
+    font-size: 20px;
+    margin-top: 200px;
+}
+.header-one .header h3{
+    color: white;
+}
+
+
+.header-one .a-group button{
+    
+    color: white;
+    text-decoration: none;
+    margin-left: 50px;
+    padding: 10px 30px;
+    border: 1px solid white;
+    border-radius: 5px;
+    
+}
+.header-one .a-group button:hover{
+opacity: 0.4;
+}
+
