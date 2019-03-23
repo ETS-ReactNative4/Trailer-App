@@ -57,7 +57,7 @@ class TrailerList extends Component{
         backgroundImage:`url('https://image.tmdb.org/t/p/original${this.props.discover.poster_path}')`
         
          };
-         const search = this.props.title;
+         
 
          
     return(

@@ -10,6 +10,11 @@ body{
     height: 44px; 
     transition: 5s;
 }
+@media only screen and (max-width: 750px){
+   .navigation{
+       display: none;
+   }
+  }
 @media only screen and (max-width: 1200px){
     .menu ul li {
    display: none;
